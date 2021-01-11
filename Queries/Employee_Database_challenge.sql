@@ -32,22 +32,22 @@ order by count(title) DESC;
 --Deliverable 2 
 --query to create a Mentorship Eligibility table that holds the employees who are eligible to participate in a mentorship program.
 
-select DISTINCT ON (e.emp_no) e.emp_no,
-    e.first_name,
-    e.last_name,
-    e.birth_date,
-    de.from_date,
-    de.to_date,
-    t.title
-into mentorship_eligibilty
-from employees as e
-inner join Dept_Emp as de
-on e.emp_no = de.emp_no
-inner join titles as t
-on e.emp_no = t.emp_no
-where de.to_date = '9999-01-01'
-and e.birth_date between '01-01-1965' and '12-31-1965'
-order by e.emp_no;
+--select DISTINCT ON (e.emp_no) e.emp_no,
+--    e.first_name,
+--   e.last_name,
+--    e.birth_date,
+--    de.from_date,
+--    de.to_date,
+--    t.title
+--into mentorship_eligibilty
+--from employees as e
+--inner join Dept_Emp as de
+--on e.emp_no = de.emp_no
+--inner join titles as t
+--on e.emp_no = t.emp_no
+--where de.to_date = '9999-01-01'
+--and e.birth_date between '01-01-1965' and '12-31-1965'
+--order by e.emp_no;
 
 -- Please note: The above query is written as per instructions in the challenge, but is delivering inconsistent results 
 -- in terms of the most current title of the employees. 
