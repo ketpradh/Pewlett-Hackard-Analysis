@@ -1,6 +1,6 @@
 # Pewlett-Hackard-Analysis by Ketaki
 ## Overview of the analysis:
-The pupose of this analysis is to determine two deliverables for Bobby's manager at Pewlett-Hackard.
+The purpose of this analysis is to determine two deliverables for Bobby's manager at Pewlett-Hackard.
 1. How many Pewlett-Hackard employees are retiring this year per title.
 2. Employees that are eligible to participate in a mentorship program.
 This analysis is performed using postgres database and SQL queries.
