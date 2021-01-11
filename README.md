@@ -14,5 +14,5 @@ This analysis is performed using postgres database and SQL queries.
 This can be found by a query on the retiring_titles tables. 
 - select sum(count)
    from retiring_titles;
-   ![]
+   ![](https://github.com/ketpradh/Pewlett-Hackard-Analysis/Total_Retiring_employees.png)
 - There are around 1549 employees that are eligible for mentorship program. However, the number of roles to be filled are almost 50 times higher than that of employees available to mentor the next generation of Pewlett Hackard employees.
