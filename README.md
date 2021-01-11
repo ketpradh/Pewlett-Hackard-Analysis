@@ -13,4 +13,4 @@ This analysis is performed using postgres database and SQL queries.
 - There are around 90,398 roles to be filled as the "silver tsunami" begins to impact.
 This can be found by a query on the retiring_titles tables. Query - (https://github.com/ketpradh/Pewlett-Hackard-Analysis/blob/main/Retiring_employees_count.sql)
  ![](https://github.com/ketpradh/Pewlett-Hackard-Analysis/blob/main/Total_Retiring_employees.PNG)
-- There are around 1549 employees that are eligible for mentorship program. However, the number of roles to be filled are almost 50 times higher than that of employees available to mentor the next generation of Pewlett Hackard employees.
+- There are around 1549 employees that are eligible for mentorship program. However, the number of roles to be filled are almost 50 times higher than that of employees available to mentor the next generation of Pewlett Hackard employees. Data - [Retiring_vs_MentoringEmployees](https://github.com/ketpradh/Pewlett-Hackard-Analysis/blob/main/Retiring_vs_Mentoring_EmpperDept.csv)
